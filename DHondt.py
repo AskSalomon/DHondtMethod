@@ -1,13 +1,7 @@
-your_name = input()
 
-print(your_name)
+numberOfParties = input()
 
-your_age = input()
-
-print("Hello, " + your_name + " why have you chosen to say alive for all of " + your_age + "arent you dragging your heels a little bit?")
-
-print("\n I am sorry, if you want to insult me, type your insult now ")
-
-insult = input()
-
-print("That is very fair, I am indeed an " + insult)
+###  1. Input number of parties that took part in the election
+###  2. Call the input() as many times as you have parties
+###  3. Print out the information you have gotten this way.
+###  4. (optional) save the vote tally to a file.
