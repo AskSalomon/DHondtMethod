@@ -10,6 +10,12 @@ numberOfParties = input()
 print("To add number of seats press 's', to add a party press 'p' to add votes to a party press 'v' ")
 print("To see current tally press 't' to run election type 'democracy?'")
 
+
+parties = {"Red": 250, "Green": 100, "Yellow": 50, "Blue": 20}
+
+for party, votes in parties.items():
+    print(f"{party} has {votes} votes.")
+
 def add_party():
     party = input("Enter a name: ")
     votes = input("enter the number of votes: ")
@@ -19,7 +25,8 @@ def add_party():
         'votes': votes,
 })
 
-def add_seats
+#initially seats will not be an input variable
+def add_seats = print(max([1,2,3,4,5,6,7,8]))
 
 def seats_allocated
 
@@ -38,7 +45,6 @@ user_options = {
     "t": see_tally,
     "democracy?": run_demo,
 }
-
 
 def menu():
     selection = input(MENU_PROMPT)
